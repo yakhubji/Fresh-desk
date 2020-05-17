@@ -1,0 +1,178 @@
+<div class="container-fluid">
+  <div class="row text-center">
+    <div class="col-1 p-0 w-75">
+      <div
+        class="list-group rounded-0"
+        id="list-tab"
+        role="tablist"
+        style="width: 70px; background-color: #2d0de0; border-color: #12ec42;"
+      >
+        <a
+          class="list-group-item list-group-item-action active"
+          id="list-home-list"
+          data-toggle="list"
+          href="#list-home"
+          role="tab"
+          aria-controls="home"
+          style="
+            background-color: #fd2289;
+            border-color: #09ccfd;
+            color: #e0e0e0;
+          "
+          ><i
+            class="fas fa-tachometer-alt"
+            style="font-size: 18px;"
+            ngbPopover="Dashboard"
+          ></i
+        ></a>
+        <a
+          class="list-group-item list-group-item-action"
+          id="list-ticket-list"
+          data-toggle="list"
+          href="#list-ticket"
+          role="tab"
+          aria-controls="ticket"
+          style="
+            background-color: #4c13e9;
+            border-color: #37474f;
+            color: #e0e0e0;
+          "
+          ><i
+            class="fas fa-ticket-alt"
+            style="font-size: 18px;"
+            ngbPopover="tickets"
+          ></i
+        ></a>
+        <a
+          class="list-group-item list-group-item-action"
+          id="list-contacts-list"
+          data-toggle="list"
+          href="#list-contacts"
+          role="tab"
+          aria-controls="contacts"
+          style="
+            background-color: #e00af3;
+            border-color: #37474f;
+            color: #e0e0e0;
+          "
+          ><i class="far fa-id-badge" style="font-size: 18px;"></i
+        ></a>
+        <a
+          class="list-group-item list-group-item-action"
+          id="list-solutions-list"
+          data-toggle="list"
+          href="#list-solutions"
+          role="tab"
+          aria-controls="solutions"
+          style="
+            background-color: #96fd0e;
+            border-color: #37474f;
+            color: #e0e0e0;
+          "
+          ><i
+            class="fas fa-book-open"
+            style="font-size: 18px;"
+            ngbPopover="Solutions"
+          ></i
+        ></a>
+        <a
+          class="list-group-item list-group-item-action"
+          id="list-analytics-list"
+          data-toggle="list"
+          href="#list-analytics"
+          role="tab"
+          aria-controls="analytics"
+          style="
+            background-color: #189bdd;
+            border-color: #37474f;
+            color: #e0e0e0;
+          "
+          ><i
+            class="fas fa-chart-line"
+            style="font-size: 18px;"
+            ngbPopover="Analytics"
+          ></i
+        ></a>
+        <a
+          class="list-group-item list-group-item-action"
+          id="list-settings-list"
+          data-toggle="list"
+          href="#list-settings"
+          role="tab"
+          aria-controls="settings"
+          style="
+            background-color: #e2081a;
+            border-color: #37474f;
+            color: #e0e0e0;
+          "
+          ><i class="fas fa-cog" style="font-size: 18px;" ngbPopover="Admin"></i
+        ></a>
+        <a
+          class="list-group-item list-group-item-action"
+          id="list-settings-list"
+          data-toggle="list"
+          role="tab"
+          style="
+            background-color: #da1eca;
+            border-color: #37474f;
+            color: #e0e0e0;
+            height: 800px;
+          "
+        >
+        </a>
+      </div>
+    </div>
+    <div class="col-11">
+      <div class="tab-content" id="nav-tabContent">
+        <div
+          class="tab-pane fade"
+          id="list-home"
+          role="tabpanel"
+          aria-labelledby="list-home-list"
+        >
+          ...
+        </div>
+        <div
+          class="tab-pane fade show active"
+          id="list-ticket"
+          role="tabpanel"
+          aria-labelledby="list-ticket-list"
+        >
+          <app-ticket></app-ticket>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="list-contacts"
+          role="tabpanel"
+          aria-labelledby="list-contacts-list"
+        >
+          <app-contact></app-contact>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="list-solutions"
+          role="tabpanel"
+          aria-labelledby="list-solutions-list"
+        >
+          ...
+        </div>
+        <div
+          class="tab-pane fade"
+          id="list-analytics"
+          role="tabpanel"
+          aria-labelledby="list-analytics-list"
+        >
+          ...
+        </div>
+        <div
+          class="tab-pane fade"
+          id="list-settings"
+          role="tabpanel"
+          aria-labelledby="list-settings-list"
+        >
+          ...
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
